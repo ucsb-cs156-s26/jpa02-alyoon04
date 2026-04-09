@@ -36,7 +36,12 @@ public class Developer {
     public static Team getTeam() {
         Team team = new Team("s26-10");
         team.addMember("Alex Y.");
-        // TODO: Add your other teammates here as they appear on https://bit.ly/cs156-s26-teams
+        team.addMember("Amit K.");
+        team.addMember("Kazu");
+        team.addMember("Om K.");
+        team.addMember("Phill C.");
+        team.addMember("Srish N.");
+        team.addMember("Yuhang J.");
         return team;
     }
 }
